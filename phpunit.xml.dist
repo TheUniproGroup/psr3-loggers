@@ -9,7 +9,6 @@
         <whitelist>
             <directory>./</directory>
             <exclude>
-                <directory>./features</directory>
                 <directory>./vendor</directory>
             </exclude>
         </whitelist>

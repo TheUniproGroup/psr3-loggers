@@ -4,10 +4,10 @@
     "description": "PSR3 Logger Implementations",
     "homepage": "http://github.com/TheUniproGroup/psr3-loggers",
     "autoload": {
-        "psr-4" : { "Logger\\" : "src/" }
+        "psr-4" : { "TheUniproGroup\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4" : { "Logger\\Tests\\" : "tests/" }
+        "psr-4" : { "TheUniproGroup\\Tests\\" : "tests/" }
     },
     "require": {
         "php": ">=5.3.0",

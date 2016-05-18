@@ -8,7 +8,7 @@ namespace TheUniproGroup\Tests\Logger;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\Test\LoggerInterfaceTest;
-use Specsavers\OrderProcessing\Infrastructure\Services\Log\MemoryLogger;
+use TheUniproGroup\Logger\MemoryLogger;
 
 class MemoryLoggerTest extends LoggerInterfaceTest
 {

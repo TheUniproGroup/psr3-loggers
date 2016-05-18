@@ -142,7 +142,7 @@ class MemoryLogger implements LoggerInterface
           'level' => $level,
           'timestamp' => $this->getTimestampOffset(),
           'id' => isset($context['type']) ? $context['type'] : 'Unknown',
-          'description' => $message,
+          'description' => strval($message),
           'data' => $context,
         );
     }

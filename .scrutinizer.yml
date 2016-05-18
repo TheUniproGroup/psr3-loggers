@@ -1,0 +1,27 @@
+# language: php
+filter:
+    excluded_paths:
+        - 'tests/*'
+checks:
+    php: true
+coding_style:
+    php:
+        indentation:
+            general:
+                size: 2
+tools:
+    php_code_sniffer:
+        enabled:              true
+        config:
+            standard: PSR2
+        filter:
+            excluded_paths:
+                - 'vendor/*'
+build:
+    tests:
+        override:
+            -
+                command: phpunit --debug
+                coverage:
+                    file: build/logs/clover.xml
+                    format: php-clover

@@ -1,0 +1,7 @@
+.idea/
+vendor/
+phpunit.xml
+.couscous/
+composer.lock
+/build/
+.c9/

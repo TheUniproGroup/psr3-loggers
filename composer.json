@@ -1,8 +1,8 @@
 {
-    "name": "TheUniproGroup/psr3-loggers",
+    "name": "theuniprogroup/psr3-loggers",
     "type": "library",
     "description": "PSR3 Logger Implementations",
-    "homepage": "http://github.com/TheUniproGroup/psr3-loggers",
+    "homepage": "http://github.com/theuniprogroup/psr3-loggers",
     "autoload": {
         "psr-4" : { "TheUniproGroup\\" : "src/" }
     },
